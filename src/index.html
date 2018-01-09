@@ -11,7 +11,10 @@
     <!-- Header -->
     <nav class="navbar fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="#">佰汇商城</a>
-        <img src="images/cart.png" alt="" height="35px;">
+        <div style="position: relative;">
+            <img src="images/cart.png" alt="" height="35px;">
+            <span style="display: block;height: 25px;width: 25px;border-radius: 15px;background-color: #D82B34;color: #fff;text-align: center;line-height: 25px;position: absolute;right: -6px;top: -6px;">1</span>
+        </div>
     </nav>
     <!-- Banner -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -28,56 +31,74 @@
         </div>
     </div>
     <!-- Content -->
-    <div class="container-fluid bh-index-content">
+    <div class="container bh-index-content">
         <h5 class="text-center bh-index-title"><span class="bh-span-small">//</span>  佰汇精选  <span class="bh-span-small">//</span></h5>
         <div class="row">
             <div class="col-6">
                 <div class="card">
                     <div class="bh-card-img">
-                        <img class="card-img-top" src="images/goods.jpg">
+                        <img class="card-img-top rounded" src="images/goods.jpg">
                         <h5 class="card-title">洗发水</h5>
                     </div>
                     <div class="card-body">
-                        <p class="card-text bh-show-dian">【破损补寄】【适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
-                        <a href="#" class="btn btn-primary">价格：￥100.00</a>
+                        <p class="card-text bh-show-dian">破损补寄 适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
+                        <p class="bh-content-price">价格：￥100.00</a>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+             <div class="col-6">
                 <div class="card">
-                    <img class="card-img-top" src="images/goods.jpg">
-                    <div class="card-body">
+                    <div class="bh-card-img">
+                        <img class="card-img-top rounded" src="images/goods.jpg">
                         <h5 class="card-title">洗发水</h5>
-                        <p class="card-text">【破损补寄】【适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
-                        <a href="#" class="btn btn-primary">价格：￥100.00</a>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text bh-show-dian">破损补寄 适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
+                        <p class="bh-content-price">价格：￥100.00</a>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+             <div class="col-6">
                 <div class="card">
-                    <img class="card-img-top" src="images/goods.jpg">
+                    <div class="bh-card-img">
+                        <img class="card-img-top rounded" src="images/goods.jpg">
+                        <h5 class="card-title">洗发水</h5>
+                    </div>
                     <div class="card-body">
-                        <p class="card-text">【破损补寄】【适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
-                        <a href="#" class="btn btn-primary">价格：￥100.00</a>
+                        <p class="card-text bh-show-dian">破损补寄 适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
+                        <p class="bh-content-price">价格：￥100.00</a>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+             <div class="col-6">
                 <div class="card">
-                    <img class="card-img-top" src="images/goods.jpg">
+                    <div class="bh-card-img">
+                        <img class="card-img-top rounded" src="images/goods.jpg">
+                        <h5 class="card-title">洗发水</h5>
+                    </div>
                     <div class="card-body">
-                        <p class="card-text">【破损补寄】【适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
-                        <a href="#" class="btn btn-primary">价格：￥100.00</a>
+                        <p class="card-text bh-show-dian">破损补寄 适合放室内、卧室、书房、餐桌、办公室、客厅、电视柜等地方】【无理由退换货】【包邮】【白色现代简约花瓶】</p>
+                        <p class="bh-content-price">价格：￥100.00</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer -->
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-        <a class="navbar-brand" href="#">首页</a>
-        <a class="navbar-brand" href="#">全部商品</a>
-        <a class="navbar-brand" href="#">我的</a>
+    <nav class="navbar fixed-bottom navbar-light bg-light bh-footer">
+        <a class="navbar-brand text-center active" href="">
+            <!-- <img src="images/home1.png" alt=""> -->
+            <img src="images/home_active.png" alt="">
+            <span>首页</span>
+        </a>
+        <a class="navbar-brand text-center" href="#">
+            <img src="images/goods1.png" alt="">
+            <span>全部商品</span>
+        </a>
+        <a class="navbar-brand text-center" href="#">
+            <img src="images/my.png" alt="">
+            <span>我的</span>
+        </a>
     </nav>
 </body>
 

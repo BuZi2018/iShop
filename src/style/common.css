@@ -5,6 +5,51 @@ body{
 	height: 100%;
 }
 
+
+/*Index*/
+.bh-index-nav .bh-header-cart {
+    position: relative;
+}
+
+.bh-index-nav .bh-header-cart img{
+    height: 35px;
+}
+
+.bh-index-nav .bh-header-cart span{
+    display: block;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    background-color: #D82B34;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+}
+
+
+/*Search*/
+.bh-search{
+	position: relative;
+	padding-left: 0;
+}
+.bh-search .form-control{
+	padding-left: 30px;
+}
+.bh-search span{
+	position: absolute;
+	top: 12px;
+	left: 9px;
+	color: #333;
+}
+
+
+
+
+
+
 .bh-span-small{
 	/*font-weight: normal;*/
 	font-size: 12px;

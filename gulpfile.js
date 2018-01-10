@@ -108,9 +108,21 @@ gulp.task('fileinclude', function() {
         }));
 });
 
+/*第三方组件全部*/
+gulp.task('components', function() {
+    gulp.src('src/components/**/*.*')
+        // .pipe(uglify().on('error', function(err) {
+        //     console.log(err.toString());
+        // }))
+        .pipe(gulp.dest('dist/components'))
+        .pipe(reload({
+            stream: true
+        }));
+});
+
 
 /*服务*/
-gulp.task('ser', ['style', 'css', 'script', 'font', 'images', 'fileinclude'], function() {
+gulp.task('ser', ['style', 'css', 'script', 'font', 'images', 'fileinclude','components'], function() {
     browserSync({
         notify: false,
         port: 2018,
@@ -126,5 +138,6 @@ gulp.task('ser', ['style', 'css', 'script', 'font', 'images', 'fileinclude'], fu
     gulp.watch('src/fonts/*.*', ['font']);
     gulp.watch('src/images/*.*', ['images']);
     gulp.watch('src/**/*.html', ['fileinclude']);
+    gulp.watch('src/components/**/*.*', ['components']);
 
 });

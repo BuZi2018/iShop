@@ -1,3 +1,4 @@
+
 body{
 	background-color: #eee;
 	padding-top: 57px;
@@ -43,6 +44,12 @@ body{
 	top: 12px;
 	left: 9px;
 	color: #333;
+}
+
+
+/*Common*/
+.bh-h-full{
+	height: 100%;
 }
 
 

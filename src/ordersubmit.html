@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    @@include("include/headerlink.html") @@include("include/footerlink.html")
-    <title>购物车</title>
-    <link rel="stylesheet" href="style/cart.css">
+	@@include("include/headerlink.html") @@include("include/footerlink.html")
+	<title>订单确认</title>
+	<link rel="stylesheet" href="style/cart.css">
 </head>
-
 <body>
     <!-- Header -->
     <nav class="navbar fixed-top navbar-light bg-light">
@@ -16,10 +14,15 @@
             </a>
         </div>
         <div class="col text-center">
-            购物车
+            订单确认
         </div>
     </nav>
     <!-- Content -->
+	<div class="container">
+		<div class="row">
+			
+		</div>
+	</div>
     <div class="container bh-cart">
         <div class="row">
             <div class="col-4">
@@ -173,8 +176,7 @@
             &nbsp;&nbsp;
             积分:<span>1000</span>
         </div>
-        <button type="button" class="bh-buy-btn bh-go-cart" onclick="location.href='ordersubmit.html'">去结算</button>
+        <button type="button" class="bh-buy-btn bh-go-cart">去支付</button>
     </nav>
 </body>
-
 </html>
